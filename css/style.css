@@ -30,19 +30,33 @@
 
 header input:last-child{
     padding: 0.5rem;
-        padding-right: 5rem;
-        border-radius: 0.3rem;
-        margin: 0.3rem;
-        color: var(--color-text);
-        background-color: var(--color-btn);
-        border: none;
+    padding-right: 5rem;
+    border-radius: 2rem;
+    margin: 0.3rem;
+    color: var(--color-text);
+    background-color: var(--color-btn);
+    border: none;
 }
 
-header div:last-child{
+header .bkgrd-color {
     background-color: var(--color-gray);
     padding-left: 2rem;
+}
+
+/* --- MAIN ---*/
+main {
+    background-color: var(--color-dark);
+}
+
+.bottom{
+    display: flex;
+    padding: 2rem;
+    gap: 1rem;
 
 }
+
+
+
 
 
 /* --- UTILITIES ---*/
