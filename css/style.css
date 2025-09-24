@@ -35,7 +35,7 @@ header input:last-child{
     margin: 0.3rem;
     color: var(--color-text);
     background-color: var(--color-btn);
-    border: none;
+    border: none;   
 }
 
 header .bkgrd-color {
@@ -53,6 +53,30 @@ main {
     padding: 2rem;
     gap: 1rem;
 
+}
+
+.part-right {
+    width: 30%;
+
+    img{
+        width: 100%;
+    }
+}
+
+.part-left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.card {
+    width: calc(100% / 4 - 9px);
+    color: white;
+
+    img {
+        width: 100%;
+    }
 }
 
 
