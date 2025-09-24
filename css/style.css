@@ -2,10 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
     height: 100vh;
+       
+
+}
+
+header {
+    height: 83.2px;
     overflow: hidden;
+    
 }
 
 #top {
@@ -14,6 +23,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
+    
 
     a {
         text-decoration: none;
@@ -50,7 +60,7 @@ header .bkgrd-color {
 /* --- MAIN ---*/
 main {
     background-color: var(--color-dark);
-
+    
 }
 
 .bottom {
@@ -63,7 +73,7 @@ main {
 .part-right {
     width: 30%;
     color: white;
-    overflow-y: auto;
+    
 
     img {
         width: 100%;
@@ -111,6 +121,8 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 70%;
+    height: calc(100vh - 83.2px);
+    overflow-y: auto;
 }
 
 .card {
