@@ -124,10 +124,17 @@ main {
         border-color: white;
     }
 
-    h6 {
-        margin-bottom: 0.5rem;
+    p {
+        margin: 0.8rem auto;
+        font-size: small;
     }
 
+}
+
+.current-play {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .part-left {
