@@ -1,0 +1,66 @@
+/* -- FOR TABLETS -- */
+
+@media screen and (max-width: 743px) {
+
+    .card {
+    width: calc(100% / 3 - 9px);
+    color: white;
+    margin-bottom: 2rem;
+    position: relative;
+
+}
+
+.part-right {
+    width: 30%;
+    color: white;
+
+
+    img {
+        width: 100%;
+    }
+
+    .play {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 1.5rem;
+    }
+
+    .play-btn {
+
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        font-size: 2rem;
+    }
+
+    .go {
+        display: block;
+        width: 100%;
+        margin-bottom: 0.3rem;
+        padding: 0.4rem 3rem;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+    }
+
+    .wish {
+        display: block;
+        width: 100%;
+        margin-bottom: 0.3rem;
+        padding: 0.4rem 3rem;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        border-color: white;
+    }
+
+    h6 {
+        margin-bottom: 0.5rem;
+    }
+
+
+}
+}
+
+
