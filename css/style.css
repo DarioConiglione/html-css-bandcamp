@@ -148,6 +148,10 @@ main {
     width: 70%;
     height: calc(100vh - 83.2px);
     overflow-y: auto;
+
+    scrollbar-width: thin;
+    scrollbar-color: black  gray;
+
 }
 
 .card {
