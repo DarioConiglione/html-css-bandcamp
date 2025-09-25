@@ -3,55 +3,87 @@
 @media screen and (max-width: 743px) {
 
     .card {
-    width: calc(100% / 3 - 9px);
-    color: white;
-    margin-bottom: 2rem;
-    position: relative;
+        width: calc(100% / 3 - 9px);
+        color: white;
+        margin-bottom: 2rem;
+        position: relative;
+
+    }
+
+    .part-right {
+        width: 30%;
+        color: white;
+
+
+        img {
+            width: 100%;
+        }
+
+        .play {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin: 0.5rem;
+        }
+
+        .play-btn {
+
+            width: 50px;
+            height: 45px;
+            border-radius: 100%;
+            font-size: 1rem;
+        }
+
+    }
+
+    .current-play {
+        display: block;
+
+
+    }
+
+    .follow {
+        width: 100%;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        border-color: white;
+        margin-top: 0.3rem;
+
+    }
 
 }
 
-.part-right {
-    width: 30%;
-    color: white;
+@media screen and (max-width: 600px) {
 
+    .part-right {
+        display: none;
+    }
 
-    img {
+    .card {
+        width: calc(100% / 2 - 9px);
+        color: white;
+        margin-bottom: 2rem;
+        position: relative;
+    }
+
+    .part-left {
         width: 100%;
     }
 
-    .play {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        margin: 0.5rem;
+    nav input:last-child {
+        display: none;
     }
 
-    .play-btn {
-
-        width: 50px;
-        height: 45px;
-        border-radius: 100%;
-        font-size: 1rem;
+    header input:last-child {
+        width: 100%;
+        
     }
-
-}
-
-.current-play {
-    display: block;
-   
     
-}
+    .bkgrd-color {
+        padding: 0 2.5rem;
+        padding-bottom: 0.6rem;
+    }
 
-.follow {    
-    width: 100%;
-    border-radius: 5px;
-    background-color: black;
-    color: white;
-    border-color: white;
-    margin-top: 0.3rem;
 
 }
-
-}
-
-
