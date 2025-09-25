@@ -73,7 +73,7 @@ main {
 .part-right {
     width: 30%;
     color: white;
-    
+        
 
     img {
         width: 100%;
@@ -129,9 +129,27 @@ main {
     width: calc(100% / 4 - 9px);
     color: white;
     margin-bottom: 2rem;
+    position: relative;
+    border: 0.5px solid gray;
+    
 
     img {
         width: 100%;
+    }
+
+    button {
+        display: none;        
+    }
+
+    &:hover button{
+        display: block;
+        position: absolute;
+        bottom: 30%;
+        border-radius: 50%;
+        border: none;
+        padding: 0.25rem;
+
+        
     }
 }
 
